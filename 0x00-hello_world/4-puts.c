@@ -1,8 +1,11 @@
 #include <stdio.h>
 
+/* main - Entry point */
 int main(void)
 {
-puts("\"Programming is like building a multilingual puzzle")
+char use_puts[] = "\"Programming is like building a multilingual puzzle";
 
-return 0
+puts(use_puts);
+
+return (0);
 }
