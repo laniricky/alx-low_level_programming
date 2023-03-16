@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	use_puts[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
+	use_puts = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
 
 	return (use_puts);
 }
