@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	use_puts = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
+	fprintf("and that piece of art is useful\" - Dora Korpar, 2015-10-19\n");
 
-	return (use_puts);
+	return (1);
 }
