@@ -7,6 +7,7 @@
 int main(void)
 {
 	int n;
+	str x;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
@@ -19,7 +20,7 @@ int main(void)
 	{
 		x = "is negative";
 	}
-	else
+	else if (n == 0)
 	{
 		x = "is zero";
 	}
