@@ -14,15 +14,15 @@ int main(void)
 	/* your code goes there */
 	if (n > 0)
 	{
-		x = "is positive";
+		strcpy(x, "is positive");
 	}
 	else if (n < 0)
 	{
-		x = "is negative";
+		strcpy(x, "is negative");
 	}
 	else if (n == 0)
 	{
-		x = "is zero";
+		strcpy(x, "is zero");
 	}
 
 	printf("%d %s\n", n, x);
