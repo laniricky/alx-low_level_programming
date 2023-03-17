@@ -15,7 +15,7 @@ int main(void)
 	}
 	for (k = 'a'; k < 'g'; k++)
 	{
-		putchar('k');
+		putchar(k);
 	}
 
 	return (0);
