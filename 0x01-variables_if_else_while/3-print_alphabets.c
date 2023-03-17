@@ -10,6 +10,7 @@ int main(void)
 	char a[26] = "abcdefghijklmnopqrstuvwxyz";
 	char b[26] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	int i;
+	int x;
 
 	for (i = 0; i < 26; i++)
 	{
