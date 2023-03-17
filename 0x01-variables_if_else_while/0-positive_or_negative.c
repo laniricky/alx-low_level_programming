@@ -7,25 +7,23 @@
 int main(void)
 {
 	int n;
-	char x[15];
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
 	if (n > 0)
 	{
-		strcpy(x, "is positive");
+		printf("is positive\n", n);
 	}
 	else if (n < 0)
 	{
-		strcpy(x, "is negative");
+		 printf("is negative\n", n);
 	}
 	else if (n == 0)
 	{
-		strcpy(x, "is zero");
+		 printf("is zero\n", n);
 	}
 
-	printf("%d %s\n", n, x);
 
 	return (0);
 }
