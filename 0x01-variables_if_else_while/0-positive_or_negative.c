@@ -7,22 +7,21 @@
 int main(void)
 {
 	int n;
-	char x[];
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
 	if (n > 0)
 	{
-		x = "is positive";
+		char x[] = "is positive";
 	}
 	else if (n < 0)
 	{
-		x = "is negative";
+		char x[] = "is negative";
 	}
 	else if (n == 0)
 	{
-		x = "is zero";
+		char x[] = "is zero";
 	}
 
 	printf("%d %s\n", n, x);
