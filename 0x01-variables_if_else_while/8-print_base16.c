@@ -17,4 +17,6 @@ int main(void)
 	{
 		putchar('k');
 	}
+
+	return (0);
 }
