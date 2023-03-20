@@ -27,11 +27,11 @@ int main(void)
 						putchar(' ');
 						putchar(c + '0');
 						putchar(d + '0');
-						if(a + b + c + d != 36)
-						{
-							putchar(',');
-							putchar(' ');
-						}
+					}
+					if (a + b + c + d != 36)
+					{
+						putchar(',');
+						putchar(' ');
 					}
 				}
 			}
