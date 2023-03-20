@@ -11,6 +11,8 @@ int main(void)
 	int b;
 	int c;
 	int d;
+	int e = (a * 10) + b;
+	int f = (c * 10) + d;
 
 	for (a = 0; a < 10; a++)
 	{
@@ -20,7 +22,7 @@ int main(void)
 			{
 				for (d = 0; d < 10; d++)
 				{
-					if (a + b < c + d && a + b + c + d != 0)
+					if (a + b < c + d && a + b + c + d != 0 && a * 10 + b < c * 10 + d)
 					{
 						putchar(a + '0');
 						putchar(b + '0');
@@ -28,7 +30,7 @@ int main(void)
 						putchar(c + '0');
 						putchar(d + '0');
 					}
-					if (a + b < c + d && a + b + c + d != 35 && a + b + c + d != 0)
+					if (a + b < c + d && a + b + c + d != 35 && a + b + c + d != 0 && a * 10 + b < c * 10 + d)
 					{
 						putchar(',');
 						putchar(' ');
