@@ -11,8 +11,6 @@ int main(void)
 	int b;
 	int c;
 	int d;
-	int e = (a * 10) + b;
-	int f = (c * 10) + d;
 
 	for (a = 0; a < 10; a++)
 	{
