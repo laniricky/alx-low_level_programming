@@ -24,7 +24,7 @@ int main(void)
 				{
 					e = a * 10 + b;
 					f = c * 10 + d;
-					if (a + b < c + d && a + b + c + d != 0 && a * 10 + b < c * 10 + d)
+					if (a + b + c + d != 0 && e < f && e < 100 && f < 100)
 					{
 						putchar(a + '0');
 						putchar(b + '0');
@@ -32,7 +32,7 @@ int main(void)
 						putchar(c + '0');
 						putchar(d + '0');
 					}
-					if (a + b < c + d && a + b + c + d != 35 && a + b + c + d != 0 && e < f)
+					if (a + b + c + d != 35 && a + b + c + d != 0 && e < f)
 					{
 						putchar(',');
 						putchar(' ');
