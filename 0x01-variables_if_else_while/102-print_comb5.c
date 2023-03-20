@@ -20,7 +20,7 @@ int main(void)
 			{
 				for (d = 1; d < 10; d++)
 				{
-					if (a + b < c + d)
+					if (a + b < c + d && a + b + c + d != 0)
 					{
 						putchar(a + '0');
 						putchar(b + '0');
@@ -28,7 +28,7 @@ int main(void)
 						putchar(c + '0');
 						putchar(d + '0');
 					}
-					if (a + b < c + d && a + b + c + d != 35)
+					if (a + b < c + d && a + b + c + d != 35 && a + b + c + d != 0)
 					{
 						putchar(',');
 						putchar(' ');
