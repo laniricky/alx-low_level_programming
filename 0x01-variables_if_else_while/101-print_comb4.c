@@ -13,9 +13,9 @@ int main(void)
 
 	for (a = 0; a < 10; a++)
 	{
-		for (b = 0; b < 10; b++)
+		for (b = 1; b < 10; b++)
 		{
-			for (c = 0; c < 10; c++)
+			for (c = 2; c < 10; c++)
 			{
 				if (a < b && b < c)
 				{
