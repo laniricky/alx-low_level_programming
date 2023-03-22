@@ -37,10 +37,10 @@ int main(void)
 	{
 		printf(", %lu", after1 + (after2 / l));
 		printf("%lu", after2 % l);
-		aft1 = after1 + before1;
-		bef1 = after1 - before1;
-		aft2 = after2 + before2;
-		bef2 = after2 - before2;
+		after1 = after1 + before1;
+		before1 = after1 - before1;
+		after2 = after2 + before2;
+		before2 = after2 - before2;
 	}
 	printf("\n");
 	return (0);
