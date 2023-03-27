@@ -3,18 +3,18 @@
 /**
  * _strlen - return the length of a string
  * @s: the string
- * Return: y
+ * Return: i the length
  */
 
 int _strlen(char *s)
 {
 
-	int y = 0;
+	int i = 0;
 
 	while (*s != '\0')
 	{
-		y++;
+		i++;
 		s++;
 	}
-	return (y);
+	return (i);
 }
