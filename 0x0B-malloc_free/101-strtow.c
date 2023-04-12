@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * words_count - count the number of words
+ * count_word - count the number of words
  * @s: string
  *
  * Return: number of words
