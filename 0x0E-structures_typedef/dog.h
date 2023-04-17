@@ -21,5 +21,10 @@ void print_dog(struct dog *d);
 char *_strcpy(char *dest, char *src);
 int _strlen(char *s);
 
+/**
+ * dog_t - new name for the type struct dog
+ */
+
+typedef struct dog dog_t;
 
 #endif
